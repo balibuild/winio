@@ -1,7 +1,7 @@
 package etw
 
 import (
-	"github.com/Microsoft/go-winio/pkg/guid"
+	"github.com/balibuild/winio/pkg/guid"
 )
 
 type eventOptions struct {
