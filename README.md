@@ -1,4 +1,6 @@
-# go-winio
+# winio
+
+winio Fork from [https://github.com/microsoft/go-winio](https://github.com/microsoft/go-winio)
 
 This repository contains utilities for efficiently performing Win32 IO operations in
 Go. Currently, this is focused on accessing named pipes and other file handles, and
@@ -8,6 +10,13 @@ This code relies on IO completion ports to avoid blocking IO on system threads, 
 to reuse the thread to schedule another goroutine. This limits support to Windows Vista and
 newer operating systems. This is similar to the implementation of network sockets in Go's net
 package.
+
+## Note
+
+This repository is not intended to be merged into the original Microsoft repository.
+
+
+## Origin LICENSE
 
 Please see the LICENSE file for licensing information.
 
